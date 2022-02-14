@@ -1,0 +1,219 @@
+*{
+    margin:0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#hidec{
+    display:inline;
+}
+#show{
+    margin: auto;
+}
+.account{
+    width:32px;
+    height:32px;
+    border-radius: 100%;
+}
+.box-container{
+display:grid;
+grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+gap:4rem;
+}
+.box{
+    background-color: white;
+}
+.box h6{
+    font-weight: 400;
+    margin-left: 0.5em;
+}
+.classes{
+    width:95%;
+    text-align:left;
+    margin: auto;
+}
+.menu-border{
+    background-color: white;
+    margin: auto;
+    width:45%;
+}
+.col-lg-3 img{
+    height:229px;
+}
+.col-lg-3 h5{
+    display:inline;
+}
+.col-lg-3 h6{
+    font-weight: 400;
+}
+.board{
+    border:none;
+    background-color:#113CFC;
+    padding:0 0.9em;
+    color:white;
+    margin-right: 0.5em;
+    border-radius:5px;
+}
+.f-layer{
+  display: flex;
+}
+.f-layer h5{
+    flex:1;
+    margin-left: 0.5em;
+}
+.first-half{
+    margin-left: 2em;
+    display:inline;
+    flex:2.2;
+}
+.first-half h4{
+    display:inline;
+}
+.heading{
+    text-align: center;
+    margin-top:5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2em;
+    color:white;
+}
+.lower-sidebar{
+    margin-top: 12em;
+}
+.lower-sidebar-item:hover{
+    background-color: #FFFFFF12;
+}
+.left-body{
+    margin-left:16%;
+}
+.lower-sidebar-item{
+    display:block;
+    background-color:#212A2D;
+    border: none;
+    margin-left: 1em;
+    font-size: 0.9rem;
+    padding:0.4em 6em 0.4em 1em;
+    color:white;
+}
+.my-navbar{
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: 4%;
+}
+.notification{
+    border:none;
+    background-color:#E5E5E5;
+    font-size: larger;
+    margin-right: 1em;
+}
+.online-btn{
+    background-color: chartreuse;
+    border:none;
+    padding:0 0.6em;
+    margin-right: 0.5em;
+    color:white;
+    border-radius:5px;
+}
+.profile-img{
+    width:32px;
+    height:32px;
+    border-radius: 100%;
+}
+.s-layer{
+    text-align: right;
+}
+.search{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding:0.2em 0 0.2em 1em;
+    margin-right: 1em;
+}
+.second-half label{
+    position: absolute;
+    margin-left: -3em;
+    margin-top: 0.3em;
+    cursor: pointer;
+}
+.sidebar-item{
+    display:block;
+    background-color:#212A2D;
+    border: none;
+    font-size: 0.9rem;
+    margin: auto;
+    padding:0.7em 6em 0.7em 1em;
+    color:white;
+    margin-bottom: 1em;
+}
+.second-half{
+    display:inline;
+    flex:1;
+   justify-content:flex-end;
+}
+.sidebar-item:hover{
+    background-color: #FFFFFF12;
+}
+.v-navbar-pc{
+    width:16%;
+    height:100%;
+    background-color:#212A2D;
+    position: fixed;
+    top:0;
+}
+
+@media(max-width:1200px)
+{
+    .sidebar-item{
+        padding:0.4em 0.4em 0.4em 0.4em;
+    }
+    .lower-sidebar-item{
+        padding:0.4em 0.4em 0.4em 0.4em;
+    }
+   
+}
+@media(max-width:1250px)
+{
+    .first-half{
+        flex:4;
+    }
+}
+@media(max-width:600px)
+{
+    .account{
+        width:25px;
+        height:25px;
+    }
+    .first-half{
+        flex:2.8;
+        margin-left: 1em;
+    }
+    .search{
+        margin-right: 0.2em;
+    }
+    .notification{
+        margin-right: 0.2em;
+        font-size: 1rem;
+    }
+   
+    .second-half label{
+        font-size: 1rem;
+        margin-top: 0.1em;
+        margin-left:-1.3em;
+    }
+    .my-navbar{
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+    .left-body{
+        margin-left:19%;
+    }
+    .box{
+        width:90%;
+    }
+}
+@media(max-width:360px)
+{
+    .box{
+        width:73%;
+    }
+}
